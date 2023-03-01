@@ -40,7 +40,6 @@ module.exports = {
   favicon: 'img/favicon.png',
   organizationName: 'EkiChD', // Usually your GitHub org/user name.
   projectName: 'eki-deguille.github.io', // Usually your repo name.
-  deploymentBranch: 'gh-pages',
   themeConfig: {
     image:"http://eki-deguille.github.io/img/10-cubecube03.jpg",
     prism: {
