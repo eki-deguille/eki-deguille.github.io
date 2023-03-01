@@ -1,0 +1,1 @@
+(window.webpackJsonp=window.webpackJsonp||[]).push([[50],{119:function(g){g.exports=JSON.parse('{"allTagsPath":"/blog/tags","slug":"light-gbm","name":"lightgbm","count":1,"permalink":"/blog/tags/light-gbm"}')}}]);
