@@ -33,15 +33,15 @@ module.exports = {
 
 
   ],
-  url: 'https://ekimetrics.github.io',
+  url: 'https://eki-deguille.github.io',
   baseUrl: '/',
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
   favicon: 'img/favicon.png',
   organizationName: 'EkiChD', // Usually your GitHub org/user name.
-  projectName: 'ekimetrics.github.io', // Usually your repo name.
+  projectName: 'eki-deguille.github.io', // Usually your repo name.
   themeConfig: {
-    image:"http://ekimetrics.github.io/img/10-cubecube03.jpg",
+    image:"http://eki-deguille.github.io/img/10-cubecube03.jpg",
     prism: {
       theme: require('prism-react-renderer/themes/dracula'),
       additionalLanguages: ['python'],
