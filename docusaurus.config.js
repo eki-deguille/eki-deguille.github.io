@@ -38,7 +38,7 @@ module.exports = {
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
   favicon: 'img/favicon.png',
-  organizationName: 'EkiChD', // Usually your GitHub org/user name.
+  organizationName: 'eki-deguille', // Usually your GitHub org/user name.
   projectName: 'eki-deguille.github.io', // Usually your repo name.
   themeConfig: {
     image:"http://eki-deguille.github.io/img/10-cubecube03.jpg",
