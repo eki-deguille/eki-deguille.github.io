@@ -3,6 +3,7 @@
 
 # Production
 /build
+.github\workflows\main
 
 # Generated files
 .docusaurus
