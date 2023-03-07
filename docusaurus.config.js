@@ -41,7 +41,7 @@ module.exports = {
   organizationName: 'eki-deguille', // Usually your GitHub org/user name.
   projectName: 'eki-deguille.github.io', // Usually your repo name.
   themeConfig: {
-    //image:"http://eki-deguille.github.io/img/10-cubecube03.jpg",
+    image:"http://eki-deguille.github.io/img/10-cubecube03.jpg",
     prism: {
       theme: require('prism-react-renderer/themes/dracula'),
       additionalLanguages: ['python'],
