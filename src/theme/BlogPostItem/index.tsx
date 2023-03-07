@@ -108,8 +108,8 @@ function BlogPostItem(props: Props): JSX.Element {
         {keywords && keywords.length && (
           <meta name="keywords" content={keywords.join(',')} />
         )}
-        {imageUrl && <meta property="og:image" content={imageUrl} />}
-        {imageUrl && <meta name="twitter:image" content={imageUrl} />}
+        {imageUrl && <meta property="og:image" content={"./img/blog/datalake_part_2.jpg"} />}
+        {imageUrl && <meta name="twitter:image" content={"./img/blog/datalake_part_2.jpg"} />}
         {imageUrl && (
           <meta name="twitter:image:alt" content={`Image for ${title}`} />
         )}
