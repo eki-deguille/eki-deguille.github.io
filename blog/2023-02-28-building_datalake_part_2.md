@@ -3,7 +3,6 @@ title: "Building a datalake - Part 2 - Smart storage & computing strategies for 
 author: Emilien BOUCAUD
 author_title: Data Engineering & Architecture Consultant
 author_url: mailto:inno@ekimetrics.com
-image: "./img/blog/datalake_part_2.jpg"
 header_image_url: "./img/blog/datalake_part_2.jpg"
 tags: [Datalake, Data Engineering, Architecture, Data Governance, Data Mesh]
 draft: false
