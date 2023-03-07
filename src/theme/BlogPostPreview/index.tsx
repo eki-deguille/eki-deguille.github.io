@@ -11,6 +11,7 @@ import {MDXProvider} from '@mdx-js/react';
 
 import Head from '@docusaurus/Head';
 import Link from '@docusaurus/Link';
+import useDocusaurusContext from '@docusaurus/useDocusaurusContext';
 import MDXComponents from '@theme/MDXComponents';
 import type {Props} from '@theme/BlogPostItem';
 import useBaseUrl from '@docusaurus/useBaseUrl';
@@ -33,6 +34,7 @@ const MONTHS = [
 ];
 
 function BlogPostPreview(props: Props): JSX.Element {
+  const {siteConfig = {}} = useDocusaurusContext();
   const {
     children,
     frontMatter,
@@ -42,6 +44,8 @@ function BlogPostPreview(props: Props): JSX.Element {
   } = props;
   const {date, permalink, tags, readingTime} = metadata;
   const {author, title, image, keywords,description} = frontMatter;
+
+  const {url: siteUrl,} = siteConfig;
   let headerImageURL = frontMatter.header_image_url;
   headerImageURL = useBaseUrl(headerImageURL);
 
@@ -50,6 +54,9 @@ function BlogPostPreview(props: Props): JSX.Element {
   const authorImageURL =
     frontMatter.author_image_url || frontMatter.authorImageURL;
   const imageUrl = useBaseUrl(headerImageURL, {absolute: true});
+
+  const metaImage = headerImageURL;
+  const metaImageUrl = siteUrl + useBaseUrl(metaImage);
 
   const renderPostHeader = () => {
     const TitleHeading = isBlogPostPage ? 'h1' : 'h2';
@@ -118,8 +125,8 @@ function BlogPostPreview(props: Props): JSX.Element {
         {keywords && keywords.length && (
           <meta name="keywords" content={keywords.join(',')} />
         )}
-        {imageUrl && <meta property="og:image" content={imageUrl} />}
-        {imageUrl && <meta name="twitter:image" content={imageUrl} />}
+        {metaImage && <meta property="og:image" content={metaImageUrl} />}
+        {metaImage && <meta name="twitter:image" content={metaImageUrl} />}
         {imageUrl && (
           <meta name="twitter:image:alt" content={`Image for ${title}`} />
         )}
