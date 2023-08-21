@@ -44,13 +44,13 @@ module.exports = {
 
 
   ],
-  url: 'https://ekimetrics.github.io',
+  url: 'https://eki-deguille.github.io',
   baseUrl: '/',
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
   favicon: 'img/favicon.png',
-  organizationName: 'ekimetrics', // Usually your GitHub org/user name.
-  projectName: 'ekimetrics.github.io', // Usually your repo name.
+  organizationName: 'eki-deguille', // Usually your GitHub org/user name.
+  projectName: 'eki-deguille.github.io', // Usually your repo name.
   deploymentBranch: "master",
 
 
