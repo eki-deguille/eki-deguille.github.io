@@ -4,7 +4,7 @@ const katex = require('rehype-katex');
 
 module.exports = {
   title: 'Eki.Lab',
-  tagline: 'Eki.Charles - the Ekimetrics technology & innovation website. Behind the scenes of the Data Science Company',
+  tagline: 'Eki.Lab - the Ekimetrics technology & innovation website. Behind the scenes of the Data Science Company',
   plugins: [
 
     require.resolve('docusaurus-lunr-search'),
