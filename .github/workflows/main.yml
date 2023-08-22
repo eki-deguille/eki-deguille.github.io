@@ -27,8 +27,8 @@ jobs:
           git config --global user.name "gh-actions"
           npm run deploy
         env:
-          GIT_USER: eki-deguille
+          #GIT_USER: eki-deguille
           #GIT_PASS: EKI_DEGUILLE
-          #GIT_USER: ${{ secrets.GIT_USER }}
+          GIT_USER: ${{ secrets.GIT_USER }}
           GIT_PASS: ${{ secrets.GIT_PAT }}
           
