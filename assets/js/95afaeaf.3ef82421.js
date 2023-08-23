@@ -1,1 +1,0 @@
-"use strict";(self.webpackChunkeki_lab=self.webpackChunkeki_lab||[]).push([[1151],{62818:a=>{a.exports=JSON.parse('{"label":"DataOps","permalink":"/blog/tags/data-ops","allTagsPath":"/blog/tags","count":1}')}}]);

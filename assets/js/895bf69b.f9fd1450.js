@@ -1,1 +1,0 @@
-"use strict";(self.webpackChunkeki_lab=self.webpackChunkeki_lab||[]).push([[4682],{13061:e=>{e.exports=JSON.parse('{"label":"Power BI","permalink":"/blog/tags/power-bi","allTagsPath":"/blog/tags","count":1}')}}]);

@@ -1,1 +1,0 @@
-"use strict";(self.webpackChunkeki_lab=self.webpackChunkeki_lab||[]).push([[714],{14302:e=>{e.exports=JSON.parse('{"label":"Sales Prediction","permalink":"/blog/tags/sales-prediction","allTagsPath":"/blog/tags","count":2}')}}]);

@@ -1,1 +1,0 @@
-"use strict";(self.webpackChunkeki_lab=self.webpackChunkeki_lab||[]).push([[6248],{73395:a=>{a.exports=JSON.parse('{"label":"Demand Forecasting","permalink":"/blog/tags/demand-forecasting","allTagsPath":"/blog/tags","count":1}')}}]);

@@ -1,1 +1,0 @@
-"use strict";(self.webpackChunkeki_lab=self.webpackChunkeki_lab||[]).push([[3],{56821:e=>{e.exports=JSON.parse('{"label":"biodiversity","permalink":"/blog/tags/biodiversity","allTagsPath":"/blog/tags","count":1}')}}]);

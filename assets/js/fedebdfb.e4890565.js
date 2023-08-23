@@ -1,1 +1,0 @@
-"use strict";(self.webpackChunkeki_lab=self.webpackChunkeki_lab||[]).push([[852],{69559:a=>{a.exports=JSON.parse('{"label":"Datalake","permalink":"/blog/tags/datalake","allTagsPath":"/blog/tags","count":2}')}}]);

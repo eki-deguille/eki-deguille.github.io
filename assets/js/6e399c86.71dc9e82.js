@@ -1,1 +1,0 @@
-"use strict";(self.webpackChunkeki_lab=self.webpackChunkeki_lab||[]).push([[3792],{7312:a=>{a.exports=JSON.parse('{"label":"Knapsack problem","permalink":"/blog/tags/knapsack-problem","allTagsPath":"/blog/tags","count":2}')}}]);

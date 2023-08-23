@@ -1,1 +1,0 @@
-"use strict";(self.webpackChunkeki_lab=self.webpackChunkeki_lab||[]).push([[5519],{97821:e=>{e.exports=JSON.parse('{"label":"Low code","permalink":"/blog/tags/low-code","allTagsPath":"/blog/tags","count":1}')}}]);
